@@ -18,37 +18,41 @@ body, html {
     height: 100%;
     top: 0;
     left: 0;
-    animation: slideFade 9s infinite;
+    animation: slideFade 18s infinite;
 }
 
-.slide1 {
+.red {
     background-color: red;
     z-index: 3;
 }
 
-.slide2 {
+.blue {
     background-color: blue;
     z-index: 2;
-    animation-delay: 3s;
-}
-
-.slide3 {
-    background-color: green;
-    z-index: 1;
     animation-delay: 6s;
 }
 
+.green {
+    background-color: green;
+    z-index: 1;
+    animation-delay: 12s;
+}
+
 @keyframes slideFade {
-    0%, 100% {
+    0%, 27.78% {
         top: 0;
         opacity: 1;
     }
-    33% {
+    33.33%, 61.11% {
         top: 100%;
         opacity: 0;
     }
-    66% {
+    66.67%, 94.44% {
         top: 100%;
         opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
     }
 }
