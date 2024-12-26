@@ -21,18 +21,18 @@ body, html {
     animation: slideFade 18s infinite;
 }
 
-.red {
+.slide1 {
     background-color: red;
     z-index: 3;
 }
 
-.blue {
+.slide2 {
     background-color: blue;
     z-index: 2;
     animation-delay: 6s;
 }
 
-.green {
+.slide3 {
     background-color: green;
     z-index: 1;
     animation-delay: 12s;
