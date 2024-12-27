@@ -8,9 +8,89 @@
 </head>
 <body>
     <div class="container">
-        <div class="box slide1"></div>
-        <div class="box slide2"></div>
-        <div class="box slide3"></div>
+        <div class="box slide1"><script>
+            (function(d, s, id) {
+                if (d.getElementById(id)) {
+                    if (window.__TOMORROW__) {
+                        window.__TOMORROW__.renderWidget();
+                    }
+                    return;
+                }
+                const fjs = d.getElementsByTagName(s)[0];
+                const js = d.createElement(s);
+                js.id = id;
+                js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+    
+                fjs.parentNode.insertBefore(js, fjs);
+            })(document, 'script', 'tomorrow-sdk');
+            </script>
+    
+            <div class="tomorrow"
+               data-location-id="028989"
+               data-language="EN"
+               data-unit-system="METRIC"
+               data-skin="light"
+               data-widget-type="upcoming"
+               style="padding-bottom:22px;position:relative;"
+            >
+              <a
+                href="https://www.tomorrow.io/weather-api/"
+                rel="nofollow noopener noreferrer"
+                target="_blank"
+                style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+              >
+                <img
+                  alt="Powered by the Tomorrow.io Weather API"
+                  src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+                  width="250"
+                  height="18"
+                />
+              </a>
+            </div>
+            <script>
+                (function(d, s, id) {
+                    if (d.getElementById(id)) {
+                        if (window.__TOMORROW__) {
+                            window.__TOMORROW__.renderWidget();
+                        }
+                        return;
+                    }
+                    const fjs = d.getElementsByTagName(s)[0];
+                    const js = d.createElement(s);
+                    js.id = id;
+                    js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+        
+                    fjs.parentNode.insertBefore(js, fjs);
+                })(document, 'script', 'tomorrow-sdk');
+                </script>
+        
+                <div class="tomorrow"
+                   data-location-id="028989"
+                   data-language="EN"
+                   data-unit-system="METRIC"
+                   data-skin="light"
+                   data-widget-type="aqiPollen"
+                   style="padding-bottom:22px;position:relative;"
+                >
+                  <a
+                    href="https://www.tomorrow.io/weather-api/"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+                  >
+                    <img
+                      alt="Powered by the Tomorrow.io Weather API"
+                      src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+                      width="250"
+                      height="18"
+                    />
+                  </a>
+                </div>
+                <div class="attribution">Background image credit: ŠJů (CC BY-SA 3.0)</div>
+        </div>
+        <div class="box slide2"><iframe src="https://calendar.google.com/calendar/embed?src=malcolmshaywood%40gmail.com&ctz=Europe%2FBerlin" class="calendar" style="border: 0" width="100%" height="100%" frameborder="0" scrolling="no"></iframe></div>
+        <div class="box slide3"><script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+          <div class="commonninja_component pid-9ff3c41d-1fea-4f83-87a8-9a8d8927ce8c"></div></div>
     </div>
 </body>
 </html>

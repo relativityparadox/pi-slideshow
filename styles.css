@@ -18,24 +18,42 @@ body, html {
     height: 100%;
     top: 0;
     left: 0;
-    animation: slideFade 18s infinite;
+    animation: slideFade 54s infinite;
 }
 
 .slide1 {
-    background-color: red;
+    background-color: rgb(146, 184, 255);
+    background-image: url("sky-image.jpg");
     z-index: 3;
 }
 
 .slide2 {
     background-color: blue;
     z-index: 2;
-    animation-delay: 6s;
+    animation-delay: 18s;
 }
 
 .slide3 {
     background-color: green;
     z-index: 1;
-    animation-delay: 12s;
+    animation-delay: 36s;
+}
+
+.tomorrow {
+    margin: 100px;
+}
+
+.attribution {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.calendar {
+    margin: auto;
 }
 
 @keyframes slideFade {
